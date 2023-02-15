@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.heading{
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+}
+
+.heading h3{
+    padding: 24px;
+    color: green;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.score-1,.score-2{
+    font-size: 52px;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.game-status{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.player-1-btn,.player-2-btn{
+    border: none;
+    padding: 12px 32px;
+    background-color: grey;
+    color: white;
+}
+
+.active{
+    background-color: green;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.reset{
+    padding: 8px 32px;
+    background-color: #ff9090;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
